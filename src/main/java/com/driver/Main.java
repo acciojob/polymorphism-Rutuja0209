@@ -4,8 +4,8 @@ public class Main {
     //1. create class Product inside main class
     public static void main(String[] args) {
         //2. create object of product in main function called p
-        Main.Product p = new Main.Product();
-        //Product p = new Product();
+        //Main.Product p = new Main.Product();
+        Product p = new Product();
         int ans = p.product(10, 20);
 
         int ans1 = p.product(1, 2, 3);
@@ -15,7 +15,8 @@ public class Main {
     }
     
     //1.
-    public static class Product{
+    //public static 
+    public class Product{
         public int product(int x, int y){
             return x*y;
 
@@ -29,4 +30,5 @@ public class Main {
         return x*y;
         }
 
+}
 }
